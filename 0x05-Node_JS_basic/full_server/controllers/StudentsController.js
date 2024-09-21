@@ -1,5 +1,4 @@
-/* global process */
-import readDatabase from '../utils.js';
+import readDatabase from '../utils';
 
 /**
  * The list of supported majors.
@@ -72,3 +71,4 @@ class StudentsController {
 }
 
 export default StudentsController;
+module.exports = StudentsController;
